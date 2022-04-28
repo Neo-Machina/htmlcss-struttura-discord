@@ -22,12 +22,43 @@ header {
     background-color: #add8e6;
     /* TEST */
     height: 30px;
+    display: flex;
 }
 
 .header-bottom {
     background-color: #00008b;
     /* TEST */
     height: 170px;
+}
+
+
+.logo, nav, .login {
+    border: 1px dotted black;
+}
+
+/* LOGO */
+.logo {
+    width: 20%;
+}
+/* NAV */
+nav {
+    width: 60%;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    padding: 0 10px;
+}
+/* LOGIN */
+.login {
+    width: 20%;
+    text-align: right;
+
 }
 
 /* MAIN */
