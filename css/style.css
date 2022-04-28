@@ -18,6 +18,7 @@ header {
     height: 350px;
 }
 
+/* HEADER-TOP */
 .header-top-flex {
     background-color: #daa520;
     display: flex;
@@ -36,10 +37,21 @@ header {
     align-items: center;
 }
 
+/* HEADER-BOTTOM */
 .header-bottom {
     background-color: #00008b;
     /* TEST */
     height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.violet-box {
+    background-color: #ee82ee;
+    height: 240px;
+    width: 490px;
+    border: 2px dashed black;
 }
 
 
