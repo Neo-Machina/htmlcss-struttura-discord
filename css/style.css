@@ -4,3 +4,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    /* TEST */
+    background-color: yellowgreen
+    height: 200px;
+}
+
+.header-top {
+    background-color: #add8e6;
+    /* TEST */
+    height: 30px;
+}
+
+.header-bottom {
+    background-color: #00008b;
+    /* TEST */
+    height: 170px;
+}
+
+/* MAIN */
+main {
+    /* TEST */
+    background-color: pink;
+    height: 950px;
+}
+
+.section-1, .section-3 {
+    background-color: white;
+    /* TEST */
+    height: 200px;
+
+}
+
+.section-2 {
+    background-color: #d3d3d3;
+    /* TEST */
+    height: 200px;
+}
+
+.section-4 {
+    background-color: #d3d3d3;
+    /* TEST */
+    height: 350px;
+}
+
+footer {
+    /* TEST */
+    background-color: green;
+    height: 250px;
+}
+
+.footer-top {
+    background-color: #23272a;
+    /* TEST */
+    height: 220px;
+    border-bottom: 2px solid white ;
+}
+
+.footer-bottom {
+    background-color: #23272a;
+    /* TEST */
+    height: 30px;
+}
