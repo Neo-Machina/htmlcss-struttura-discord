@@ -15,25 +15,38 @@
 header {
     /* TEST */
     background-color: yellowgreen
-    height: 200px;
+    height: 350px;
+}
+
+.header-top-flex {
+    background-color: #daa520;
+    display: flex;
+    height: 25px;
+    width: 660px;
+
 }
 
 .header-top {
     background-color: #add8e6;
     /* TEST */
-    height: 30px;
+    height: 45px;
+
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-bottom {
     background-color: #00008b;
     /* TEST */
-    height: 170px;
+    height: 305px;
 }
 
 
 .logo, nav, .login {
-    border: 1px dotted black;
+    border: 2px dashed black;
+    font-size: 12px;
+    padding: 5px;
 }
 
 /* LOGO */
